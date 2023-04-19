@@ -1,3 +1,4 @@
+//Copyright(c)Vishal Ahirwar 2023. 
 #include<stdio.h>
 #include<stdlib.h>
 #include<unistd.h>
@@ -22,7 +23,7 @@ int main(int argc,char**argv)
     dir=opendir(path);
     if(dir==NULL)
     {
-        printf("unable to open dir : %s",path);
+        printf("unable to open dir : %s\n",path);
         return -1;
     };
 
